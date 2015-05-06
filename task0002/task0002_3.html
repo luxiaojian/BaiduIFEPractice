@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>轮播图</title>
+  <script src="js/task0002_3.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      margin: 40px;
+    }
+
+    #container {
+      width: 600px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #list {
+      width: 3000px;
+      height: 300px;
+      position: absolute;
+    }
+
+    #list img {
+      display: block;
+      float: left;
+    }
+
+    #button {
+      position: absolute;
+      height: 10px;
+      width: 100px;
+      z-index: 2;
+      bottom: 20px;
+      left: 250px;
+    }
+
+    #button span {
+      cursor: pointer;
+      float: left;
+      border: 1px solid #fff;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #333;
+      margin-right: 5px;
+    }
+
+    #button .on {
+      background: orangered;
+    }
+
+  </style>
+</head>
+<body>
+<div id="container">
+  <div id="list" style="left: -600px">
+    <img src="img/chrome-big.jpg" alt="image"/>
+    <img src="img/firefox-big.jpg" alt="image"/>
+    <img src="img/ie-big.jpg" alt="image"/>
+    <img src="img/opera-big.jpg" alt="image"/>
+    <img src="img/safari-big.jpg" alt="image"/>
+  </div>
+  <div id="button">
+    <span index="1" class="on"></span>
+    <span index="2"></span>
+    <span index="3"></span>
+    <span index="4"></span>
+    <span index="5"></span>
+  </div>
+</div>
+</body>
+</html>
