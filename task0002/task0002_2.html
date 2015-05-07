@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .container{
+      width: 60%;
+      margin: 40px auto;
+    }
+    input{
+      line-height: 30px;
+      width: 300px;
+    }
+    button{
+      padding: 10px;
+    }
+    .result{
+      margin-top: 20px;
+    }
+    h3{
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <input type="text"   id="time" placeholder="按照指定的格式YYYY-MM-DD输入年月日"/>
+      <button onclick="countTime()">提交</button>
+      <p class="error"></p>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/task0002_2.js"></script>
+</body>
+</html>

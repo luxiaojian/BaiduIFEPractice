@@ -56,7 +56,7 @@ function simpleTrim(str) {
 
 //用正则表达式把字符串中的空白字符替换
 function trim(str) {
-  return str.replace(/^\s+|\s+$/g, '');
+  return str.replace(/^\s+|\s+$/g, "");
 }
 
 // 实现一个遍历数组的方法，针对数组中每一个元素执行fn函数，并将数组索引和元素作为参数传递
@@ -210,6 +210,12 @@ function addEnterEvent(element, listener) {
     }
   });
 }
+
+// 先简单一些
+function delegateEvent(element, tag, eventName, listener) {
+
+}
+
 
 //实现函数对$符号的绑定
 $.on = function (selector, event, listener) {
