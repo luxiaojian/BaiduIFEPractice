@@ -3,11 +3,57 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>任务1</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .container{
+      margin-top: 10px;
+    }
+    .container h4+p{
+      margin-bottom: 30px;
+    }
+    body{
+      padding: 50px;
+    }
+    #hobby{
+      line-height: 25px;
+      width: 200px;
+    }
+    button{
+      padding: 5px;
+    }
+    .error{
+      color: red;
+    }
+  </style>
 </head>
 <body>
-<label for="hobby">爱好</label>
-<input id="hobby" type="text"/>
-<button id="handle" onclick="handle()">处理爱好</button>
+  <div class="container">
+    <h4>第一阶段</h4>
+    <p>
+      在页面中，有一个单行输入框，一个按钮，输入框中用来输入用户的兴趣爱好，允许用户用半角逗号来作为不同爱好的分隔。当点击按钮时，把用户输入的兴趣爱好，按照上面所说的分隔符分开后保存到一个数组，过滤掉空的、重复的爱好，在按钮下方创建一个段落显示处理后的爱好。</p>
+    <label for="hobby">爱好</label>
+    <input id="hobby" type="text" placeholder="半角逗号来作为不同爱好的分隔" />
+    <button  onclick="show1()">处理爱好</button>
+  </div>
+  <div class="container container2">
+    <h4>第二阶段</h4>
+    <p>单行变成多行输入框，一个按钮，输入框中用来输入用户的兴趣爱好，允许用户用换行、空格（全角/半角）、逗号（全角/半角）、顿号、分号来作为不同爱好的分隔。当点击按钮时的行为同上</p>
+    <p><label for="hobby">爱好</label></p>
+    <textarea name="" id="hobby2" cols="50" rows="10"></textarea>
+    <p><button  onclick="show2()">处理爱好</button></p>
+  </div>
+  <div class="container container3">
+    <h4>第三阶段</h4>
+    <p>单行变成多行输入框，一个按钮，输入框中用来输入用户的兴趣爱好，允许用户用换行、空格（全角/半角）、逗号（全角/半角）、顿号、分号来作为不同爱好的分隔。当点击按钮时的行为同上</p>
+    <p><label for="hobby">爱好</label></p>
+    <textarea name="" id="hobby3" cols="50" rows="10"></textarea>
+    <p><button  onclick="show3()">处理爱好</button></p>
+    <p class="error"></p>
+  </div>
+<script src="js/util.js"></script>
 <script src="js/task0002_1.js"></script>
 </body>
 </html>
