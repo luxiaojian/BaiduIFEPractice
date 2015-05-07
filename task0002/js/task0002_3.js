@@ -3,8 +3,8 @@
  */
 
 window.onload= function(){
-  var container =document.getElementById("container");//最外层的容器
-  var list = document.getElementById("list");//图片的容器
+  var container =$("#container");//最外层的容器
+  var list = $("#list");//图片的容器
   var buttons = document.getElementsByTagName("span");//原点计数器
   var index = 1;
   var animated = false;

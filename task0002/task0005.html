@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>界面拖拽交互</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body{
+      background-color: #5e5e5e;
+    }
+    .clearfix:before,
+    .clearfix:after {
+      display: table;
+      content: '';
+    }
+
+    .clearfix:after {
+      clear: both;
+      *zoom: 1;
+    }
+
+    #container {
+      position: absolute;
+      top:0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      margin: auto;
+      /*top: 50%;*/
+      /*left: 50%;*/
+      /*transform: translate(-50%, -50%);*/
+      width: 800px;
+      height: 600px;
+      /*border:2px solid #000;*/
+    }
+    .box-container{
+      width: 35%;
+      height: 100%;
+      background-color: #fff;
+      border: 1px solid #000;
+    }
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+    .box-item{
+      width: 100%;
+      text-align: center;
+      line-height: 60px;
+      height: 60px;
+      background-color: #f00;
+      border-bottom: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+<div id="container">
+    <div class="left box-container" id="left-target">
+      <div class="box-item"  draggable="true">1</div>
+      <div class="box-item"  draggable="true">2</div>
+      <div class="box-item"  draggable="true">3</div>
+      <div class="box-item"  draggable="true">4</div>
+      <div class="box-item"  draggable="true">5</div>
+    </div>
+  <div class="right box-container" id="right-target">
+    <div class="box-item" draggable="true">1</div>
+    <div class="box-item" draggable="true">2</div>
+    <div class="box-item" draggable="true">3</div>
+    <div class="box-item" draggable="true">4</div>
+    <div class="box-item" draggable="true">5</div>
+  </div>
+</div>
+<script src="js/util.js"></script>
+<script src="js/task0002_5.js"></script>
+</body>
+</html>
