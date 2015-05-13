@@ -37,8 +37,8 @@
       <file leaf-file-name="task0002_1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task0002/js/task0002_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.078459345" vertical-offset="1142" max-vertical-offset="1862">
-              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.45791727" vertical-offset="1142" max-vertical-offset="1862">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -316,14 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task0002/task0002_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="304">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task0002/js/task0002_2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5420827" vertical-offset="0" max-vertical-offset="1197">
@@ -385,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task0002/js/task0002_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078459345" vertical-offset="1142" max-vertical-offset="1862">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.45791727" vertical-offset="1142" max-vertical-offset="1862">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
           <folding />
         </state>
       </provider>
